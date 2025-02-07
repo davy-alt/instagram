@@ -1,0 +1,94 @@
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+
+#container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid lightgray 2px;
+    height: 700px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+.imagem{
+    height: 150px;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+    height: 30px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+
+.face{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    background-color: #0851e4;
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: blue;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+input{
+    position: relative;
+    top: 55px;
+    height: 35px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid rgb(145, 144, 144);
+    margin-top: 5px;
+    background-color: rgba(236, 234, 234, 0.514);
+}
+
+p{
+    position: relative;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 50px;
+}
+
+#registro{
+    position: relative;
+    top: 55px;
+    height: 40px;
+    width: 300px;
+    background-color: #6196ff;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.erro{
+    border: red 1px solid;
+}
+
+button{
+    cursor: pointer;
+}
